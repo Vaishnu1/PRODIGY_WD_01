@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funniest Search Bar</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.search-container {
+  margin: 50px auto;
+  max-width: 400px;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 40px 15px 15px; /* Added space for the icon */
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #007bff; /* Blue */
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px; /* Adjusted positioning */
+  transform: translateY(-50%);
+}
+
+.search-icon img {
+  max-width: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="search-container">
+  <div class="search-icon">
+    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/magnifying-glass-tilted-left_1f50d.png" alt="Search">
+  </div>
+  <input type="text" class="search-input" placeholder="Type something funny...">
+</div>
+
+</body>
+</html>
+
